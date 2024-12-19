@@ -1,0 +1,92 @@
+
+.dashboard-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(145deg, #f3f4f6, #ffffff);
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1), -10px -10px 30px rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dashboard-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.15), -15px -15px 35px rgba(255, 255, 255, 0.85);
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 28px;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    box-shadow: 0px 5px 15px rgba(255, 126, 95, 0.5);
+  }
+  
+  .user-info-card {
+    background: linear-gradient(145deg, #ffffff, #f3f4f6);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1), inset -5px -5px 15px rgba(255, 255, 255, 0.8);
+  }
+  
+  .welcome-message,
+  .email-info {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #007bff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 255, 0.2);
+  }
+  
+  .action-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .fetch-message {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .fetch-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    background: linear-gradient(90deg, #36d1dc, #5b86e5);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .fetch-btn:hover {
+    background: linear-gradient(90deg, #5b86e5, #36d1dc);
+    box-shadow: 0px 5px 15px rgba(91, 134, 229, 0.5);
+    transform: translateY(-3px);
+  }
+  
